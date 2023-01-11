@@ -1,0 +1,43 @@
+.calculator-container {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 135px;
+}
+
+.input {
+  display: flex;
+  text-align: right;
+  width: 99.3%;
+  border: 1px solid rgb(128, 128, 128);
+  height: 80px;
+  background-color: #858694;
+  color: antiquewhite;
+  font-size: 40px;
+  margin-right: 2%;
+}
+
+.rows {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.row button {
+  width: 25%;
+  height: 80px;
+  border: 1px solid rgb(167, 167, 167);
+  font-size: 20px;
+}
+
+.operator-btn-orange {
+  background-color: #f5913e;
+}
+
+.zero {
+  width: 50% !important;
+}
