@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing App.js with snapshot test App.js dom snapshot 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <nav
+      className="nav_bar"
+    >
+      <div
+        className="nav_title"
+      >
+        <h1>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Math Magicians
+          </a>
+        </h1>
+      </div>
+      <ul
+        className="nav_items"
+      >
+        <li
+          className="nav_item"
+        >
+          <a
+            aria-current="page"
+            className="nav_link active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav_link"
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav_link"
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>,
+  <main
+    className="main"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="home_part"
+      >
+        <h2>
+          Welcome to Our Page
+        </h2>
+        <p>
+          Welcome to our calculator app! Quick & easy calculations for students, professionals, and more. User-friendly interface & various functions. Perform calculations with just a few clicks. From basic math to advanced. Download now & see how it can make your life easier.
+        </p>
+      </div>
+    </div>
+  </main>,
+]
+`;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
-// import operate from './logic/operate';
+import Card from './interface/Card';
 import './calculator.css';
 
 const Calculator = () => {
@@ -21,9 +21,11 @@ const Calculator = () => {
   const { total, next } = calculationState;
 
   return (
-    <div className="calculator-container">
+    <Card extraclass="calculator-container">
       <div className="input-holder">
-        <div className="input" type="text">{ next || total || 0}</div>
+        <p data-testid="total_value" className="input" type="text">
+          { next || total || 0}
+        </p>
       </div>
       <ul className="rows">
         <li className="row">
@@ -94,7 +96,7 @@ const Calculator = () => {
           </button>
         </li>
       </ul>
-    </div>
+    </Card>
   );
 };
 
