@@ -11,11 +11,11 @@
 
 .input {
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  text-align: right;
+  width: 99.3%;
   border: 1px solid rgb(128, 128, 128);
   height: 80px;
-  background-color: #5793c7;
+  background-color: #858694;
   color: antiquewhite;
   font-size: 40px;
   margin-right: 2%;
@@ -35,7 +35,7 @@
 }
 
 .operator-btn-orange {
-  background-color: #1f73c6;
+  background-color: #f5913e;
 }
 
 .zero {
