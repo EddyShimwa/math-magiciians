@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <Layout>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<CalculatorPage />} />
           <Route path="/quote" element={<QuotePage />} />
         </Routes>
