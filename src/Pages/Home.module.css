@@ -1,0 +1,16 @@
+.home_part {
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 60%;
+}
+
+.home_part h2 {
+  font-size: 4rem;
+}
+
+.home_part p {
+  font-size: 20px;
+}
