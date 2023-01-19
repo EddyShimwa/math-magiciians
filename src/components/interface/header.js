@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-
 import classes from './header.module.css';
+
 const Header = () => (
   <header className={classes.header}>
     <nav className={classes.nav_bar}>
@@ -12,7 +12,7 @@ const Header = () => (
       </div>
       <ul className={classes.nav_items}>
         <li className={classes.nav_item}>
-          <NavLink className={classes.nav_link} to="/">
+          <NavLink className={classes.nav_link} to="/home">
             Home
           </NavLink>
         </li>

@@ -1,12 +1,18 @@
-import React from "react";
+import React from 'react';
+import classes from './Home.module.css';
 
-const home = () => {
-   <div>
+const Home = () => (
+
+  <div className={classes.home_part}>
     <h2>Welcome to Our Page</h2>
     <p>
-    Welcome to our calculator app! Our app is designed to make your calculations quick and easy. Whether you're a student, a professional, or just someone who needs to make a calculation from time to time, our app is the perfect tool for you. With a user-friendly interface and a wide range of functions, you can perform any calculation you need in just a few clicks. From basic arithmetic to more advanced calculations, our app has got you covered. Download now and see for yourself how our calculator app can make your life easier.
+      Welcome to our calculator app! Quick & easy calculations for students,
+      professionals, and more. User-friendly interface & various functions.
+      Perform calculations with just a few clicks.
+      From basic math to advanced.
+      Download now & see how it can make your life easier.
     </p>
-   </div>
-}
+  </div>
+);
 
-export default home
+export default Home;

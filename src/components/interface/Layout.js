@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from './Header';
+import Header from './header';
 import classes from './Layout.module.css';
 
 const Layout = (props) => {

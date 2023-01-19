@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Calculator from '../components/Calculator';
-import Card from '../components/UI/Card';
+import Card from '../components/interface/Card';
 import classes from './CalculatorPage.module.css';
 
 const CalculatorPage = () => (
@@ -9,13 +9,11 @@ const CalculatorPage = () => (
     <Card extraclass={classes.calc_details}>
       <h3>Lets do some Maths!</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-        numquam atque, ipsam sint molestiae doloremque consequatur nam dolorum
-        eum fuga ut similique earum saepe nisi odit placeat quos nihil aut.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad odit
-        repudiandae mollitia, illum, excepturi repellendus cum corrupti hic
-        voluptatibus odio enim sunt necessitatibus dolorum dolor! Iure quae
-        officia aperiam delectus.
+        Welcome to our calculator app! Quick & easy calculations for students,
+        professionals, and more. User-friendly interface & various functions.
+        Perform calculations with just a few clicks.
+        From basic math to advanced.
+        Download now & see how it can make your life easier.
       </p>
     </Card>
     <Calculator />
