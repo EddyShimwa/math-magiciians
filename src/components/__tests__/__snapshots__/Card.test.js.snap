@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compare the Card component current output to a previous snapshot The component output should be consistent with the previous snapshot. 1`] = `
+<div
+  className="card"
+>
+  <h1>
+    Hello from Card Component
+  </h1>
+</div>
+`;
